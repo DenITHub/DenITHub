@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="./assets/gh-header.svg" alt="DenITHub — Data Analytics Portfolio" width="100%" />
+  <img
+    src="https://raw.githubusercontent.com/DenITHub/DenITHub/main/assets/gh-header.svg?sanitize=true&v=2"
+    alt="DenITHub — Data Analytics Portfolio"
+    width="100%" />
 </p>
 
 # 👋 Hi, I'm Denys Mierkulov
