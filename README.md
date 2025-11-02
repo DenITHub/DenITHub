@@ -43,7 +43,7 @@ I specialize in **data visualization**, **CRM analytics**, and **automation** us
 ### 🌍 Connect with Me
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/DenITHub)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/denys-mierkulov)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/denysmierkulov)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat&logo=vercel&logoColor=white)](https://portfolioprojectshub.vercel.app)
 [![Email](https://img.shields.io/badge/Email-24061318%2BDenITHub%40users.noreply.github.com-red?style=flat)](mailto:24061318+DenITHub@users.noreply.github.com)
 
