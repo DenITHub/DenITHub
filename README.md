@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/gh-header.svg" alt="DenITHub — Data Analytics Portfolio" width="100%" />
+</p>
+
 # 👋 Hi, I'm Denys Mierkulov
 
 ### 🎯 Data Analyst | BI Developer | Python & AI Enthusiast
