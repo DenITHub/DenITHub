@@ -1,0 +1,60 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- фон, близкий к твоему OG -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b0e11"/>
+      <stop offset="1" stop-color="#151a21"/>
+    </linearGradient>
+
+    <!-- мягкое свечение -->
+    <radialGradient id="glow" cx="85%" cy="20%" r="60%">
+      <stop offset="0" stop-color="#71c7ff" stop-opacity=".30"/>
+      <stop offset=".6" stop-color="#71c7ff" stop-opacity=".06"/>
+      <stop offset="1" stop-color="#71c7ff" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- стиль бейджей (иконки/технологии) -->
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000" flood-opacity=".25"/>
+    </filter>
+
+    <style>
+      .title { font: 700 52px "Nunito Sans", -apple-system, Segoe UI, Roboto, Arial, sans-serif; fill: #ffffff; }
+      .subtitle { font: 600 22px "Nunito Sans", -apple-system, Segoe UI, Roboto, Arial, sans-serif; fill: #cbd5e1; }
+      .badgeText { font: 700 18px "Nunito Sans", -apple-system, Segoe UI, Roboto, Arial, sans-serif; fill: #0b0e11; }
+      .brand { font: 800 54px "Nunito Sans", -apple-system, Segoe UI, Roboto, Arial, sans-serif; fill: #00e5ff; letter-spacing: 0.5px; }
+    </style>
+  </defs>
+
+  <!-- фон -->
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <circle cx="980" cy="40" r="360" fill="url(#glow)"/>
+
+  <!-- заголовок -->
+  <text x="72" y="120" class="brand">DenITHub</text>
+  <text x="72" y="165" class="title">Data Analytics Portfolio</text>
+  <text x="72" y="204" class="subtitle">Data visualizations, analytics & insights powered by Python and BI tools</text>
+
+  <!-- бейджи техстека (в духе твоего OG: ровные, читаемые) -->
+  <g transform="translate(72, 230)" filter="url(#shadow)">
+    <!-- Power BI -->
+    <rect x="0" y="0" rx="12" ry="12" width="140" height="44" fill="#F2C811"/>
+    <text x="70" y="28" text-anchor="middle" class="badgeText">Power BI</text>
+
+    <!-- Python -->
+    <rect x="160" y="0" rx="12" ry="12" width="140" height="44" fill="#3776AB"/>
+    <text x="230" y="28" text-anchor="middle" class="badgeText" fill="#ffffff">Python</text>
+
+    <!-- Tableau -->
+    <rect x="320" y="0" rx="12" ry="12" width="150" height="44" fill="#E97627"/>
+    <text x="395" y="28" text-anchor="middle" class="badgeText" fill="#ffffff">Tableau</text>
+
+    <!-- GitHub -->
+    <rect x="490" y="0" rx="12" ry="12" width="130" height="44" fill="#ffffff"/>
+    <text x="555" y="28" text-anchor="middle" class="badgeText">GitHub</text>
+
+    <!-- OpenAI -->
+    <rect x="640" y="0" rx="12" ry="12" width="130" height="44" fill="#10A37F"/>
+    <text x="705" y="28" text-anchor="middle" class="badgeText" fill="#ffffff">OpenAI</text>
+  </g>
+</svg>
